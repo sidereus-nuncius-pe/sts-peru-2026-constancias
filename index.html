@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Verificar constancia — III Encuentro CTS Perú 2026</title>
+<style>
+  :root {
+    --maroon: #731C0F;
+    --orange: #C6461C;
+    --ink: #2A2A2A;
+    --gray: #6B6B6B;
+    --paper: #FBF8F4;
+    --line: #E4DDD3;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px 20px 40px;
+  }
+
+  .continent {
+    position: fixed;
+    top: -60px;
+    right: -80px;
+    width: 340px;
+    opacity: 0.05;
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  .wrap {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    max-width: 560px;
+  }
+
+  .kicker {
+    font-size: 13px;
+    letter-spacing: 0.06em;
+    color: var(--orange);
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+
+  h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 34px;
+    line-height: 1.15;
+    color: var(--maroon);
+    margin: 0 0 14px;
+    font-weight: 700;
+  }
+
+  .lede {
+    font-size: 16px;
+    line-height: 1.55;
+    color: var(--gray);
+    margin: 0 0 36px;
+    max-width: 46ch;
+  }
+
+  form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 6px;
+  }
+
+  input[type="text"] {
+    flex: 1;
+    font-family: "Courier New", monospace;
+    font-size: 17px;
+    letter-spacing: 0.04em;
+    padding: 14px 16px;
+    border: 1.5px solid var(--line);
+    border-radius: 6px;
+    background: #fff;
+    color: var(--ink);
+    outline: none;
+    text-transform: uppercase;
+  }
+
+  input[type="text"]:focus {
+    border-color: var(--orange);
+  }
+
+  input[type="text"]::placeholder {
+    color: #B9AFA0;
+    letter-spacing: 0.02em;
+  }
+
+  button {
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    background: var(--maroon);
+    border: none;
+    border-radius: 6px;
+    padding: 0 26px;
+    cursor: pointer;
+  }
+
+  button:hover { background: #591609; }
+  button:focus-visible, input:focus-visible { outline: 2px solid var(--orange); outline-offset: 2px; }
+
+  .hint {
+    font-size: 13px;
+    color: #9A9086;
+    margin: 0 0 40px;
+  }
+
+  .hint code {
+    font-family: "Courier New", monospace;
+  }
+
+  #result {
+    min-height: 4px;
+  }
+
+  .card {
+    border-radius: 10px;
+    padding: 26px 28px;
+    margin-top: 4px;
+  }
+
+  .card.found {
+    background: #fff;
+    border: 1.5px solid var(--line);
+    border-left: 5px solid var(--orange);
+  }
+
+  .card.missing {
+    background: #fff;
+    border: 1.5px solid var(--line);
+    border-left: 5px solid var(--gray);
+  }
+
+  .status {
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    margin-bottom: 12px;
+  }
+
+  .card.found .status { color: var(--orange); }
+  .card.missing .status { color: var(--gray); }
+
+  .name {
+    font-family: Georgia, serif;
+    font-size: 24px;
+    color: var(--maroon);
+    margin: 0 0 10px;
+    font-weight: 700;
+  }
+
+  .field {
+    font-size: 15px;
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  .field b { color: var(--ink); }
+  .field { color: var(--gray); }
+
+  .missing p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: var(--gray);
+    margin: 0;
+  }
+
+  footer {
+    margin-top: 64px;
+    font-size: 13px;
+    color: #B9AFA0;
+    text-align: center;
+    line-height: 1.6;
+  }
+
+  footer a { color: var(--gray); }
+
+  @media (max-width: 480px) {
+    h1 { font-size: 28px; }
+    form { flex-direction: column; }
+    button { padding: 14px; }
+  }
+</style>
+</head>
+<body>
+
+<svg class="continent" viewBox="0 0 200 260" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <path d="M110 8 C130 20 118 34 128 46 C140 58 150 44 158 58 C166 72 150 80 156 96 C162 112 146 110 140 128 C134 146 148 156 138 176 C128 196 116 190 112 212 C108 234 118 244 106 258 C98 200 92 150 88 120 C84 90 70 74 78 54 C86 34 96 20 110 8 Z"
+    fill="none" stroke="#731C0F" stroke-width="2.5"/>
+</svg>
+
+<div class="wrap">
+  <div class="kicker">III ENCUENTRO CTS PERÚ 2026 · STS PERÚ MEETING</div>
+  <h1>Verifica una constancia de participación</h1>
+  <p class="lede">Ingresa el código impreso en la parte inferior del certificado para confirmar que fue emitido por la organización del encuentro.</p>
+
+  <form id="lookupForm" autocomplete="off">
+    <input type="text" id="codeInput" placeholder="CTS26-XXXXXX" maxlength="20" aria-label="Código de verificación">
+    <button type="submit">Verificar</button>
+  </form>
+  <p class="hint">El código empieza con <code>CTS26-</code> y está justo debajo de la fecha del evento en el certificado.</p>
+
+  <div id="result"></div>
+</div>
+
+<footer>
+  Organizado por Sidereus Nuncius, Rooted Futures Lab y la Maestría en Antropología PUCP.<br>
+  26–28 de agosto de 2026 · Pontificia Universidad Católica del Perú
+</footer>
+
+<script>
+  let records = [];
+  let indexByCode = {};
+
+  fetch('data.json')
+    .then(r => r.json())
+    .then(data => {
+      records = data;
+      records.forEach(r => { indexByCode[r.codigo.toUpperCase()] = r; });
+    })
+    .catch(() => {
+      document.getElementById('result').innerHTML =
+        '<div class="card missing"><p class="status">ERROR</p><p>No se pudo cargar la base de datos de verificación. Intenta de nuevo más tarde.</p></div>';
+    });
+
+  const form = document.getElementById('lookupForm');
+  const input = document.getElementById('codeInput');
+  const result = document.getElementById('result');
+
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    const code = input.value.trim().toUpperCase();
+    if (!code) return;
+
+    const match = indexByCode[code];
+
+    if (match) {
+      const mesa = match.mesa
+        ? `<p class="field"><b>Mesa / Panel / Sesión:</b> ${escapeHtml(match.mesa)}</p>`
+        : '';
+      const afil = match.afiliacion
+        ? `<p class="field"><b>Afiliación:</b> ${escapeHtml(match.afiliacion)}</p>`
+        : '';
+      result.innerHTML = `
+        <div class="card found">
+          <p class="status">CONSTANCIA VÁLIDA</p>
+          <p class="name">${escapeHtml(match.nombre)}</p>
+          <p class="field"><b>Rol:</b> ${escapeHtml(match.rol)}</p>
+          ${afil}
+          ${mesa}
+        </div>`;
+    } else {
+      result.innerHTML = `
+        <div class="card missing">
+          <p class="status">CÓDIGO NO ENCONTRADO</p>
+          <p>No existe ninguna constancia registrada con el código <b>${escapeHtml(code)}</b>. Revisa que lo hayas escrito tal como aparece en el documento.</p>
+        </div>`;
+    }
+  });
+
+  function escapeHtml(str) {
+    const div = document.createElement('div');
+    div.textContent = str;
+    return div.innerHTML;
+  }
+</script>
+
+</body>
+</html>

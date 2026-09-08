@@ -1,0 +1,450 @@
+[
+  {
+    "codigo": "CTS26-8CEVKP",
+    "nombre": "Marcos Cueto Caballero",
+    "rol": "Conferencista",
+    "afiliacion": "Casa de Oswaldo Cruz / Fundação Oswaldo Cruz (Fiocruz)",
+    "mesa": "Plenaria: Estudios de Ciencia y Sociedad en Perú y Latinoamérica"
+  },
+  {
+    "codigo": "CTS26-JH3EMG",
+    "nombre": "Ángel Alonso Gutiérrez Pérez",
+    "rol": "Conferencista",
+    "afiliacion": "Facultad Latinoamericana de Ciencias Sociales (FLACSO Ecuador)",
+    "mesa": "Plenaria: Estudios de Ciencia y Sociedad en Perú y Latinoamérica"
+  },
+  {
+    "codigo": "CTS26-CPHFKC",
+    "nombre": "Gloria Baigorrotegui Baigorrotegui",
+    "rol": "Panelista",
+    "afiliacion": "Instituto de Estudios Avanzados - Universidad de Santiago de Chile",
+    "mesa": "Panel 2 · Género, Expertise e Infraestructuras"
+  },
+  {
+    "codigo": "CTS26-39QH79",
+    "nombre": "Bryan Dale Arispe",
+    "rol": "Panelista",
+    "afiliacion": "Capaz Perú",
+    "mesa": "Panel 1 · Gobernanza y Políticas Públicas"
+  },
+  {
+    "codigo": "CTS26-HTDRSG",
+    "nombre": "Gerald Salazar Quiroz",
+    "rol": "Panelista",
+    "afiliacion": "Universidad Nacional de Ingeniería",
+    "mesa": "Panel 1 · Gobernanza y Políticas Públicas"
+  },
+  {
+    "codigo": "CTS26-UHKUY9",
+    "nombre": "Juan Israel Ambrosio Melgarejo",
+    "rol": "Panelista",
+    "afiliacion": "Universidad de Buenos Aires",
+    "mesa": "Panel 1 · Gobernanza y Políticas Públicas"
+  },
+  {
+    "codigo": "CTS26-7ZMSL5",
+    "nombre": "Humberto Merritt Tapia",
+    "rol": "Panelista",
+    "afiliacion": "Instituto Politécnico Nacional",
+    "mesa": "Panel 1 · Gobernanza y Políticas Públicas"
+  },
+  {
+    "codigo": "CTS26-LR64Y8",
+    "nombre": "Juan Carlos Vilchis Flores",
+    "rol": "Panelista",
+    "afiliacion": "Instituto Politécnico Nacional",
+    "mesa": "Panel 1 · Gobernanza y Políticas Públicas"
+  },
+  {
+    "codigo": "CTS26-7H3FJZ",
+    "nombre": "Sonia Malik",
+    "rol": "Panelista",
+    "afiliacion": "University of Delhi",
+    "mesa": "Panel 2 · Género, Expertise e Infraestructuras"
+  },
+  {
+    "codigo": "CTS26-5Q8B48",
+    "nombre": "Fernanda De Szyszlo Silva Rodríguez",
+    "rol": "Panelista",
+    "afiliacion": "University of Oxford",
+    "mesa": "Panel 2 · Género, Expertise e Infraestructuras"
+  },
+  {
+    "codigo": "CTS26-VALAQ7",
+    "nombre": "Hannah Plüss Quintanilla Fernández",
+    "rol": "Panelista",
+    "afiliacion": "University of Fribourg",
+    "mesa": "Panel 2 · Género, Expertise e Infraestructuras"
+  },
+  {
+    "codigo": "CTS26-8LVB4S",
+    "nombre": "Amparo Prieto Monreal",
+    "rol": "Panelista",
+    "afiliacion": "Investigadora independiente",
+    "mesa": "Panel 2 · Género, Expertise e Infraestructuras"
+  },
+  {
+    "codigo": "CTS26-HSHMDL",
+    "nombre": "Juan Antonio Paco Fernández",
+    "rol": "Panelista",
+    "afiliacion": "Pontificia Universidad Católica del Perú",
+    "mesa": "Panel 2 · Género, Expertise e Infraestructuras"
+  },
+  {
+    "codigo": "CTS26-VD7Q6U",
+    "nombre": "César Córdova Bernuy",
+    "rol": "Panelista",
+    "afiliacion": "Pontificia Universidad Católica del Perú",
+    "mesa": "Panel 2 · Género, Expertise e Infraestructuras"
+  },
+  {
+    "codigo": "CTS26-J6BZHY",
+    "nombre": "Rafael Barrio de Mendoza Zevallos",
+    "rol": "Panelista",
+    "afiliacion": "University of Cambridge",
+    "mesa": "Panel 3 · Biodiversidad y Medio Ambiente"
+  },
+  {
+    "codigo": "CTS26-BSGY34",
+    "nombre": "Diego Pérez Ojeda del Arco",
+    "rol": "Panelista",
+    "afiliacion": "University of Bonn",
+    "mesa": "Panel 3 · Biodiversidad y Medio Ambiente"
+  },
+  {
+    "codigo": "CTS26-XAEM9R",
+    "nombre": "Mario Zúñiga Lossio",
+    "rol": "Panelista",
+    "afiliacion": "Universidad Nacional Mayor de San Marcos",
+    "mesa": "Panel 3 · Biodiversidad y Medio Ambiente"
+  },
+  {
+    "codigo": "CTS26-RGLVTN",
+    "nombre": "Camilo Ernesto González Machado",
+    "rol": "Panelista",
+    "afiliacion": "Universidad Adolfo Ibáñez - Escuela de Gobierno",
+    "mesa": "Panel 3 · Biodiversidad y Medio Ambiente"
+  },
+  {
+    "codigo": "CTS26-6UG6ZB",
+    "nombre": "Diego Fernando Rivera Quispe",
+    "rol": "Panelista",
+    "afiliacion": "Universidad Nacional Mayor de San Marcos",
+    "mesa": "Panel 3 · Biodiversidad y Medio Ambiente"
+  },
+  {
+    "codigo": "CTS26-5JMQRA",
+    "nombre": "Marludy Alisson Herrera Taipe",
+    "rol": "Panelista",
+    "afiliacion": "Universidad Peruana Cayetano Heredia",
+    "mesa": "Panel 3 · Biodiversidad y Medio Ambiente"
+  },
+  {
+    "codigo": "CTS26-5TK9R6",
+    "nombre": "Jaime Landinez Aceros",
+    "rol": "Panelista",
+    "afiliacion": "Universidad de Ingeniería y Tecnología (UTEC)",
+    "mesa": "Panel 3 · Biodiversidad y Medio Ambiente"
+  },
+  {
+    "codigo": "CTS26-NW9PFC",
+    "nombre": "Jorge Cardoso Messeder",
+    "rol": "Panelista",
+    "afiliacion": "Instituto Federal do Rio de Janeiro (IFRJ)",
+    "mesa": "Panel 4 · Educación e Innovación"
+  },
+  {
+    "codigo": "CTS26-CNSHBK",
+    "nombre": "Gilvana Galeno Soares",
+    "rol": "Panelista",
+    "afiliacion": "Instituto Federal do Rio de Janeiro (IFRJ)",
+    "mesa": "Panel 4 · Educación e Innovación"
+  },
+  {
+    "codigo": "CTS26-H9HW9N",
+    "nombre": "Shirley Stephany Berru Flores",
+    "rol": "Panelista",
+    "afiliacion": "Pontificia Universidad Católica del Perú",
+    "mesa": "Panel 4 · Educación e Innovación"
+  },
+  {
+    "codigo": "CTS26-ZETVRK",
+    "nombre": "Jesús Leonardo Vivanco Enríquez",
+    "rol": "Panelista",
+    "afiliacion": "Pontificia Universidad Católica del Perú",
+    "mesa": "Panel 4 · Educación e Innovación"
+  },
+  {
+    "codigo": "CTS26-KD5LGZ",
+    "nombre": "Michelle Christine Chirinos Arias",
+    "rol": "Panelista",
+    "afiliacion": "Instituto de Genética Barbara McClintock",
+    "mesa": "Panel 4 · Educación e Innovación"
+  },
+  {
+    "codigo": "CTS26-2P47EL",
+    "nombre": "Yemmy Paredes Pizarro",
+    "rol": "Panelista",
+    "afiliacion": "Instituto de Genética Barbara McClintock",
+    "mesa": "Panel 4 · Educación e Innovación"
+  },
+  {
+    "codigo": "CTS26-EX5QFQ",
+    "nombre": "Robert Alejandro Mejía Tarazona",
+    "rol": "Panelista",
+    "afiliacion": "Universidad Nacional Mayor de San Marcos",
+    "mesa": "Panel 4 · Educación e Innovación"
+  },
+  {
+    "codigo": "CTS26-LW2BG5",
+    "nombre": "Moisés García Jiménez",
+    "rol": "Panelista",
+    "afiliacion": "Universidad Nacional Mayor de San Marcos",
+    "mesa": "Panel 4 · Educación e Innovación"
+  },
+  {
+    "codigo": "CTS26-C6HE9N",
+    "nombre": "David Romero Betancur",
+    "rol": "Panelista",
+    "afiliacion": "Universidad Distrital Francisco José de Caldas",
+    "mesa": "Panel 5 · Inteligencia Artificial y Algoritmos"
+  },
+  {
+    "codigo": "CTS26-BEUDFM",
+    "nombre": "Nelson Enrique Vera Parra",
+    "rol": "Panelista",
+    "afiliacion": "Universidad Distrital Francisco José de Caldas",
+    "mesa": "Panel 5 · Inteligencia Artificial y Algoritmos"
+  },
+  {
+    "codigo": "CTS26-KJMEKS",
+    "nombre": "Fiorella Yasmin Jiménez Loli",
+    "rol": "Panelista",
+    "afiliacion": "Pontificia Universidad Católica del Perú",
+    "mesa": "Panel 5 · Inteligencia Artificial y Algoritmos"
+  },
+  {
+    "codigo": "CTS26-N83LCL",
+    "nombre": "Gisela Roxana Luján Andrade",
+    "rol": "Panelista",
+    "afiliacion": "Perú por el Desarme",
+    "mesa": "Panel 5 · Inteligencia Artificial y Algoritmos"
+  },
+  {
+    "codigo": "CTS26-ENGJCG",
+    "nombre": "Ángela María Agurto Zegarra",
+    "rol": "Panelista",
+    "afiliacion": "Technical University of Munich (TUM)",
+    "mesa": "Panel 6 · Salud, Ciencia y Tecnología"
+  },
+  {
+    "codigo": "CTS26-VXAFCH",
+    "nombre": "Christian Humberto Chávez Villanueva",
+    "rol": "Panelista",
+    "afiliacion": "Pontificia Universidad Católica del Perú",
+    "mesa": "Panel 6 · Salud, Ciencia y Tecnología"
+  },
+  {
+    "codigo": "CTS26-9H5DW7",
+    "nombre": "Dino Isaac Estrada Flores",
+    "rol": "Panelista",
+    "afiliacion": "Centro de Investigación y Estudios Superiores en Antropología Social (CIESAS)",
+    "mesa": "Panel 6 · Salud, Ciencia y Tecnología"
+  },
+  {
+    "codigo": "CTS26-TJVUVJ",
+    "nombre": "Margarita Beatriz Valladares López",
+    "rol": "Panelista",
+    "afiliacion": "Pontificia Universidad Católica del Perú",
+    "mesa": "Panel 6 · Salud, Ciencia y Tecnología"
+  },
+  {
+    "codigo": "CTS26-J7EXQQ",
+    "nombre": "Bruno Luiz Américo",
+    "rol": "Moderador",
+    "afiliacion": "Pontificia Universidad Católica del Perú",
+    "mesa": "Panel 1 · Gobernanza y Políticas Públicas"
+  },
+  {
+    "codigo": "CTS26-Z86NPE",
+    "nombre": "Verónica Marlene Montoya Blua",
+    "rol": "Moderadora",
+    "afiliacion": "Pontificia Universidad Católica del Perú",
+    "mesa": "Panel 1 · Gobernanza y Políticas Públicas"
+  },
+  {
+    "codigo": "CTS26-73Y3DZ",
+    "nombre": "María Isabel Espinoza Paredes",
+    "rol": "Moderadora",
+    "afiliacion": "Michigan State University",
+    "mesa": "Panel 3 · Biodiversidad y Medio Ambiente"
+  },
+  {
+    "codigo": "CTS26-TK93K4",
+    "nombre": "Manuel Louis Rumi Etesse Ruiz de Somocurcio",
+    "rol": "Moderador",
+    "afiliacion": "Pontificia Universidad Católica del Perú",
+    "mesa": "Panel 4 · Educación e Innovación"
+  },
+  {
+    "codigo": "CTS26-NLHT76",
+    "nombre": "Julio César Mateus Borea",
+    "rol": "Moderador",
+    "afiliacion": "Universidad de Lima",
+    "mesa": "Panel 4 · Educación e Innovación"
+  },
+  {
+    "codigo": "CTS26-9W9WE8",
+    "nombre": "Luis Felipe Soltau Salcedo",
+    "rol": "Moderador",
+    "afiliacion": "Pontificia Universidad Católica del Perú",
+    "mesa": "Panel 5 · Inteligencia Artificial y Algoritmos"
+  },
+  {
+    "codigo": "CTS26-9H4TA6",
+    "nombre": "Rodrigo Canelo Castillo",
+    "rol": "Moderador",
+    "afiliacion": "Pontificia Universidad Católica del Perú",
+    "mesa": "Panel 5 · Inteligencia Artificial y Algoritmos"
+  },
+  {
+    "codigo": "CTS26-RXSHRW",
+    "nombre": "Rogelio Alfonso Scott Insua",
+    "rol": "Moderador",
+    "afiliacion": "Cornell University",
+    "mesa": "Panel 6 · Salud, Ciencia y Tecnología"
+  },
+  {
+    "codigo": "CTS26-ANB366",
+    "nombre": "Daniel Enrique Rojas Bolívar",
+    "rol": "Moderador",
+    "afiliacion": "Universidad Nacional Mayor de San Marcos",
+    "mesa": "Panel 6 · Salud, Ciencia y Tecnología"
+  },
+  {
+    "codigo": "CTS26-3X56L2",
+    "nombre": "Marcos Gjhari López Aguilar",
+    "rol": "Expositor",
+    "afiliacion": "Pontificia Universidad Católica del Perú",
+    "mesa": "Mesa Temática 2: Infraestructuras en Costa, Sierra y Selva"
+  },
+  {
+    "codigo": "CTS26-5B9579",
+    "nombre": "Juan Diego García León",
+    "rol": "Expositor",
+    "afiliacion": "Sidereus Nuncius",
+    "mesa": "Mesa Temática 1: Estudios CTS en Perú, una revisión sistemática de la literatura"
+  },
+  {
+    "codigo": "CTS26-UNYAQ4",
+    "nombre": "Esteban Vidal Saldarriaga",
+    "rol": "Expositor",
+    "afiliacion": "Sidereus Nuncius",
+    "mesa": "Mesa Temática 1: Estudios CTS en Perú, una revisión sistemática de la literatura"
+  },
+  {
+    "codigo": "CTS26-244JYM",
+    "nombre": "Eduardo Romero Dianderas",
+    "rol": "Expositor",
+    "afiliacion": "McGill University",
+    "mesa": "Mesa Temática 2: Infraestructuras en Costa, Sierra y Selva"
+  },
+  {
+    "codigo": "CTS26-KDTBDG",
+    "nombre": "Fabio Emmanuel Donayre Miranda",
+    "rol": "Expositor",
+    "afiliacion": "Osaka University",
+    "mesa": "Mesa Temática 2: Infraestructuras en Costa, Sierra y Selva"
+  },
+  {
+    "codigo": "CTS26-XYG4X9",
+    "nombre": "Úrsula Andrea Harman Canalle",
+    "rol": "Expositora",
+    "afiliacion": "Pontificia Universidad Católica del Perú",
+    "mesa": "Mesa Temática 3: Impactos Sociales de los OGM en el Sur Global"
+  },
+  {
+    "codigo": "CTS26-GV348E",
+    "nombre": "Alejandra Ruiz León",
+    "rol": "Expositora",
+    "afiliacion": "Georgia Tech",
+    "mesa": "Mesa Temática 4: Comunicación de la Ciencia y Ciencia Ciudadana / Mesa Temática 5: Archivos y Metodologías para la Historia de la Ciencia en el Perú"
+  },
+  {
+    "codigo": "CTS26-73M5HA",
+    "nombre": "Amanda Mayte Vílchez Zúñiga",
+    "rol": "Expositora",
+    "afiliacion": "Cornell University",
+    "mesa": "Mesa Temática 4: Comunicación de la Ciencia y Ciencia Ciudadana"
+  },
+  {
+    "codigo": "CTS26-DST9PL",
+    "nombre": "Neydo Edgar Hidalgo Minaya",
+    "rol": "Expositor",
+    "afiliacion": "Consejo Nacional de Ciencia, Tecnología e Innovación Tecnológica (CONCYTEC)",
+    "mesa": "Mesa Temática 4: Comunicación de la Ciencia y Ciencia Ciudadana"
+  },
+  {
+    "codigo": "CTS26-PNHPXG",
+    "nombre": "Diego Cerna Aragón",
+    "rol": "Expositor",
+    "afiliacion": "Massachusetts Institute of Technology (MIT)",
+    "mesa": "Mesa Temática 5: Archivos y Metodologías para la Historia de la Ciencia en el Perú"
+  },
+  {
+    "codigo": "CTS26-UMTPCU",
+    "nombre": "César Agusto Navarro Rache",
+    "rol": "Expositor",
+    "afiliacion": "Pontificia Universidad Católica del Perú",
+    "mesa": "Taller 1: Co-diseño, Gobernanza e Innovación"
+  },
+  {
+    "codigo": "CTS26-X8S357",
+    "nombre": "Juan Giusepe Montalván Lume",
+    "rol": "Expositor",
+    "afiliacion": "Pontificia Universidad Católica del Perú",
+    "mesa": "Taller 2: Co-creación, Innovación y Agenda Post Encuentro"
+  },
+  {
+    "codigo": "CTS26-CE2KFA",
+    "nombre": "Karina Xiomara Suárez Abarca",
+    "rol": "Expositora",
+    "afiliacion": "Pontificia Universidad Católica del Perú",
+    "mesa": "Taller 2: Co-creación, Innovación y Agenda Post Encuentro"
+  },
+  {
+    "codigo": "CTS26-Y8LTDA",
+    "nombre": "Jewell Karoline Jiménez Wun",
+    "rol": "Staff / Equipo Organizador",
+    "afiliacion": "Sidereus Nuncius",
+    "mesa": ""
+  },
+  {
+    "codigo": "CTS26-3G8WPQ",
+    "nombre": "Lucio Daniel Marcas Rivera",
+    "rol": "Staff / Equipo Organizador",
+    "afiliacion": "Sidereus Nuncius",
+    "mesa": ""
+  },
+  {
+    "codigo": "CTS26-Q6NVZK",
+    "nombre": "Fiorella Danuska Viza Araujo",
+    "rol": "Staff / Equipo Organizador",
+    "afiliacion": "Sidereus Nuncius",
+    "mesa": ""
+  },
+  {
+    "codigo": "CTS26-HDJXQA",
+    "nombre": "Claudia Vanessa Siesquén Deza",
+    "rol": "Asistente",
+    "afiliacion": "",
+    "mesa": ""
+  },
+  {
+    "codigo": "CTS26-9AHY6P",
+    "nombre": "Michelle Paola Atero Leonardo",
+    "rol": "Asistente",
+    "afiliacion": "",
+    "mesa": ""
+  }
+]
