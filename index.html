@@ -207,13 +207,13 @@
 <div class="wrap">
   <div class="kicker">III ENCUENTRO CTS PERÚ 2026 · STS PERÚ MEETING</div>
   <h1>Verifica una constancia de participación</h1>
-  <p class="lede">Ingresa el código impreso en la parte inferior del certificado para confirmar que fue emitido por la organización del encuentro.</p>
+  <p class="lede">Escanea el código QR o ingresa el código impreso en la parte inferior del certificado para confirmar que fue emitido por la organización del encuentro.</p>
 
   <form id="lookupForm" autocomplete="off">
     <input type="text" id="codeInput" placeholder="CTS26-XXXXXX" maxlength="20" aria-label="Código de verificación">
     <button type="submit">Verificar</button>
   </form>
-  <p class="hint">El código empieza con <code>CTS26-</code> y está justo debajo de la fecha del evento en el certificado.</p>
+  <p class="hint">El código empieza con <code>CTS26-</code> y está en la parte inferior del certificado, junto al código QR.</p>
 
   <div id="result"></div>
 </div>
@@ -227,20 +227,29 @@
   let records = [];
   let indexByCode = {};
 
+  const form = document.getElementById('lookupForm');
+  const input = document.getElementById('codeInput');
+  const result = document.getElementById('result');
+
   fetch('data.json')
     .then(r => r.json())
     .then(data => {
       records = data;
       records.forEach(r => { indexByCode[r.codigo.toUpperCase()] = r; });
+
+      // If arriving from a QR code (?code=CTS26-XXXXXX), fill it in and
+      // look it up automatically instead of waiting for the person to type.
+      const params = new URLSearchParams(window.location.search);
+      const fromQr = params.get('code');
+      if (fromQr) {
+        input.value = fromQr;
+        form.dispatchEvent(new Event('submit'));
+      }
     })
     .catch(() => {
       document.getElementById('result').innerHTML =
         '<div class="card missing"><p class="status">ERROR</p><p>No se pudo cargar la base de datos de verificación. Intenta de nuevo más tarde.</p></div>';
     });
-
-  const form = document.getElementById('lookupForm');
-  const input = document.getElementById('codeInput');
-  const result = document.getElementById('result');
 
   form.addEventListener('submit', function (e) {
     e.preventDefault();
